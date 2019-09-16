@@ -1,2 +1,3 @@
 #201702505113金媛媛
 Servlet接受参数为food 即有啥吃的 没有传入参数的话就输出 no food to eat
+传入参数的话输出You can eat 加上传入的参数
