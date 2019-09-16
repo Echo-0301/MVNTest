@@ -1,2 +1,9 @@
 #201702505113金媛媛
 Servlet接受参数为food 即有啥吃的 没有传入参数的话就输出 no food to eat
+传入参数的话输出You can eat 加上传入的参数 
+
+1、怎样修改 Tomcat 的监听端口：
+打开Tomcat的conf文件下server.xml，找到<Connector>标签，修改其中的 port="8080"，将8080改成自己想改的端口
+2、Tomcat 中 Catalina 与 Coyote 组件的功能分別是什么？
+Catalina是一个servlet容器用来处理servlet;
+Coyote为tomcat的容器提供了对底层socket连接数据的封装，以Request类的形式，让容器能够访问到底层的数据。
